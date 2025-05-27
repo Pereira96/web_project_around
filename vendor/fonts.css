@@ -3,3 +3,15 @@
   font-weight: 400;
   src: url(./fonts/Inter_18pt-Light.ttf);
 }
+@font-face {
+  font-family: "inter_bold";
+  src: url(../vendor/fonts/Inter_18pt-Bold.ttf);
+}
+@font-face {
+  font-family: "inter_medium";
+  src: url(./fonts/Inter_18pt-Medium.ttf);
+}
+@font-face {
+  font-family: "inter_regular";
+  src: url(./fonts/Inter_18pt-Regular.ttf);
+}

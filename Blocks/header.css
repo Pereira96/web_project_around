@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-.header_image {
+.header__image {
   margin-top: 34px;
   width: 254px;
   height: 70px;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
   }
-  .header_image {
+  .header__image {
     margin-top: 30px;
     width: 254px;
     height: 66px;
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
   }
-  .header_image {
+  .header__image {
     margin-top: 20px;
     width: 188px;
     height: 52px;
