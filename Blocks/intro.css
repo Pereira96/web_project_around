@@ -1,17 +1,17 @@
 .intro {
   max-width: 984px;
-  padding: 46px 0 46px;
+  padding: 46px 0 0%;
   margin: 0 auto;
 }
 .intro__title {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   max-width: 830px;
 }
 .intro__subtitle {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   line-height: 34px;
   max-width: 738px;
@@ -20,7 +20,7 @@
 
 .intro__author {
   max-width: 732px;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -29,7 +29,7 @@
 }
 .intro__Description {
   max-width: 722px;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 163%;
   margin-top: 32px;
@@ -41,14 +41,14 @@
     margin-top: 0px;
   }
   .intro__title {
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 45px;
     line-height: 49px;
     max-width: 707px;
   }
   .intro__subtitle {
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     line-height: 34px;
     max-width: 720px;
@@ -56,7 +56,7 @@
   }
   .intro__author {
     max-width: 720px;
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
@@ -65,7 +65,7 @@
   }
   .intro__Description {
     max-width: 720px;
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 163%;
     margin-top: 32px;
@@ -74,11 +74,11 @@
 @media screen and (max-width: 544px) {
   .intro {
     max-width: 288px;
-    padding: 64px 0 64px;
+    padding: 64px 0 0;
     margin: 0 auto;
   }
   .intro__title {
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
@@ -86,7 +86,7 @@
     margin: 0 auto 0;
   }
   .intro__subtitle {
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     line-height: 30px;
     max-width: 288px;
@@ -94,7 +94,7 @@
   }
   .intro__author {
     max-width: 288px;
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
@@ -103,9 +103,10 @@
   }
   .intro__Description {
     max-width: 288px;
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 163%;
     margin-top: 32px;
+    margin-bottom: 0px;
   }
 }
