@@ -1,5 +1,23 @@
-.footer__copyright {
+.footer {
   display: flex;
-  justify-content: center;
-  margin-bottom: 0px;
+  max-width: 880px;
+  margin: 67px auto 0px;
+  padding-bottom: 60px;
+}
+
+.footer__copyright {
+  font-family: "inter";
+  font-size: 18px;
+  line-height: 100%;
+  color: #545454;
+}
+@media (max-width: 615px) {
+  .footer {
+    max-width: 282px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+  }
 }

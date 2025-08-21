@@ -1,7 +1,32 @@
 .header {
-  display: flex;
-  justify-content: center;
+  max-width: 880px;
+  max-height: 74px;
+  margin: 0px auto 0px;
+  padding-top: 45px;
+
 }
+.header__vector{
+  max-width: 173px;
+  max-height: 33px;
+
+}
+
+@media (max-width: 615px) {
+  .header{
+    max-width: 320px;
+    padding-top:28px;
+    padding-left: 27px;
+
+ }
+
+}
+@media (max-width: 615px) {
+  .header__vector{
+    max-width:  126px;
+  }
+}
+
+ /*
 .header__image {
   margin-top: 34px;
   width: 254px;

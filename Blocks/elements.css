@@ -1,0 +1,68 @@
+.elements {
+  margin: 50px auto 0px;
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 17px;
+  row-gap: 20px;
+}
+@media (max-width: 1024px) {
+  .elements {
+    max-width: 880px;
+    margin: 50px auto 0px;
+    grid-template-columns: repeat(2, 282px);
+    column-gap: 17px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 615px) {
+  .elements {
+    max-width: 320px;
+    margin: 198.25px auto 0px;
+    grid-template-columns: repeat(1, 282px);
+    row-gap: 20px;
+    justify-content: center;
+  }
+}
+
+.elements__card {
+  position: relative;
+  width: 282px;
+  height: 361px;
+  background-image: url("../images/Rectangle.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.elements__element {
+  max-width: 282px;
+  max-height: 361px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.elements__card__description {
+  display: flex;
+  max-width: 246px;
+}
+.elements__card-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: black;
+  margin-left: 21px;
+  line-height: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.elemens__card-like {
+  margin-left: auto;
+}
+.elemens__card-like:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}

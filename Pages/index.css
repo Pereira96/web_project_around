@@ -2,9 +2,7 @@
 @import url(../blocks/footer.css);
 @import url(../blocks/header.css);
 @import url(../blocks/page.css);
-@import url(../blocks/intro.css);
-@import url(../blocks/lead.css);
+@import url(../blocks/profile.css);
 @import url(../vendor/fonts.css);
-@import url(../blocks/photo-grid.css);
-@import url(../blocks/places.css);
-@import url(../blocks/place.css);
+@import url(../blocks/elements.css);
+@import url(../blocks/forms.css);
