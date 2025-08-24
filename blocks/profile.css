@@ -26,7 +26,7 @@
   max-width: 415px;
   max-height: 77px;
 }
-.profile__info__name {
+.profile__name {
   font-size: 42px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 1024px) {
-  .profile__info__name {
+  .profile__name {
     font-size: 32px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -45,11 +45,11 @@
   }
 }
 @media (max-width: 615px) {
-  .profile__info__name {
+  .profile__name {
     font-size: 22px;
   }
 }
-.profile__info__edit-button {
+.profile__edit-button {
   max-width: 24px;
   max-height: 24px;
 }
@@ -68,14 +68,14 @@
     text-align: center;
   }
 }
-.profile__info__add-button {
+.profile__add-button {
   max-width: 150px;
   max-height: 50px;
   align-items: center;
   margin-left: auto;
 }
 @media (max-width: 615px) {
-  .profile__info__add-button {
+  .profile__add-button {
     max-width: 280px;
     margin: 36px auto 0px;
   }

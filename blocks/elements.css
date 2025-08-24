@@ -44,7 +44,7 @@
   border-top-right-radius: 10px;
 }
 
-.elements__card__description {
+.elements__card-description {
   display: flex;
   max-width: 246px;
 }
@@ -59,10 +59,10 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.elemens__card-like {
+.elements__card-like {
   margin-left: auto;
 }
-.elemens__card-like:hover {
+.elements__card-like:hover {
   transform: scale(1.1);
   opacity: 0.6;
 }

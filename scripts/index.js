@@ -1,16 +1,16 @@
 const popup = document.querySelector(".popup");
-const openButton = document.querySelector(".profile__info__edit-button");
+const openButton = document.querySelector(".profile__edit-button");
 const closeButton = document.querySelector(".popup__close-icon");
 
-const profileName = document.querySelector(".profile__info__name");
+const profileName = document.querySelector(".profile__name");
 const profileOccupation = document.querySelector(".profile__occupation");
-const profileNameInput = document.querySelector(".form__input__name");
+const profileNameInput = document.querySelector(".form__input-name");
 const profileOccupationInput = document.querySelector(
-  ".form__input__occupation"
+  ".form__input-occupation"
 );
 const editProfileName = document.querySelector(".popup__form");
 const editProfileOccupation = document.querySelector(".popup__form");
-const likeButton = document.querySelector(".elemens__card-like");
+const likeButton = document.querySelector(".elements__card-like");
 
 openButton.addEventListener("click", openpopup);
 function openpopup() {
