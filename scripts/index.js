@@ -4,9 +4,9 @@ const closeButton = document.querySelector(".popup__close-icon");
 
 const profileName = document.querySelector(".profile__name");
 const profileOccupation = document.querySelector(".profile__occupation");
-const profileNameInput = document.querySelector(".form__input-name");
+const profileNameInput = document.querySelector(".popup__input-name");
 const profileOccupationInput = document.querySelector(
-  ".form__input-occupation"
+  ".popup__input-occupation"
 );
 const editProfileName = document.querySelector(".popup__form");
 const editProfileOccupation = document.querySelector(".popup__form");

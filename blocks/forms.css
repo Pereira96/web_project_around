@@ -82,7 +82,7 @@ input {
 .popup__form__about-me {
   max-width: 358px;
 }
-.form__input {
+.popup__input {
   width: 100%;
   height: 44px;
   font-size: 14px;
@@ -138,7 +138,7 @@ input {
     font-size: 18px;
     font-weight: 900;
   }
-  .form__input {
+  .popup__input {
     max-width: 238px;
     font-size: 14px;
   }
