@@ -33,6 +33,9 @@
   line-height: 48px;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {
@@ -60,6 +63,9 @@
   font-size: 18px;
   font-weight: 400px;
   line-height: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 @media (max-width: 615px) {
   .profile__occupation {

@@ -16,12 +16,14 @@ input {
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid #000000;
   box-shadow: 0px 0px 25px 0px #00000026;
+  font-family: "Inter", sans-serif;
 }
 
 .popup_opened {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Inter", sans-serif;
 }
 .popup__close-icon {
   position: absolute;

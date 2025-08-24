@@ -1,7 +1,6 @@
-const popup = document.querySelector(".popup");
+const popUp = document.querySelector(".popup");
 const openButton = document.querySelector(".profile__edit-button");
 const closeButton = document.querySelector(".popup__close-icon");
-
 const profileName = document.querySelector(".profile__name");
 const profileOccupation = document.querySelector(".profile__occupation");
 const profileNameInput = document.querySelector(".popup__input-name");
@@ -12,30 +11,23 @@ const editProfileName = document.querySelector(".popup__form");
 const editProfileOccupation = document.querySelector(".popup__form");
 const likeButton = document.querySelector(".elements__card-like");
 
-openButton.addEventListener("click", openpopup);
-function openpopup() {
-  popup.classList.add("popup_opened");
+openButton.addEventListener("click", openPopUp);
+function openPopUp() {
+  popUp.classList.add("popup_opened");
   profileNameInput.value = profileName.textContent;
   profileOccupationInput.value = profileOccupation.textContent;
 }
 
-closeButton.addEventListener("click", closePopup);
-function closePopup() {
-  popup.classList.remove("popup_opened");
+closeButton.addEventListener("click", closePopUp);
+function closePopUp() {
+  popUp.classList.remove("popup_opened");
 }
 
 function handleEditProfileName(event) {
-  // não entendi essa linha aqui
   event.preventDefault();
   profileName.textContent = profileNameInput.value;
-  closePopup();
-}
-
-function handleditProfileOccupation(event) {
-  event.preventDefault();
   profileOccupation.textContent = profileOccupationInput.value;
+  closePopUp();
 }
 
 editProfileName.addEventListener("submit", handleEditProfileName);
-
-editProfileOccupation.addEventListener("submit", handleditProfileOccupation);
